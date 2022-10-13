@@ -22,7 +22,7 @@ body {
   margin-right: 20px;
 }
 #worldcup span {
-  color: blue;
+  color: #7CADB6;
 }
 
 #groupreague img {
@@ -47,7 +47,7 @@ body {
 .header-list li {
   list-style: none;
   padding: 33px 20px;
-  font-size: small;
+  font-size: 15px;
   font-family: "Yu Gothic Medium", "游ゴシック Medium", "游ゴシック体", "ヒラギノ角ゴ pro w3", sans-serif;
 }
 
@@ -88,7 +88,7 @@ body {
   width: 100%;
   height: calc(100vh - 70px);
   
-  color: red;
+  color: #7CADB6;
 
   background-image: url(../img/italy-gettyimages-71404165-594x594.jpg),
                     url(../img/spain-12soccerA1-articleLarge.jpg),
@@ -240,10 +240,16 @@ table td {
 #slide img {
   width: 600px;
   height: 500px;
+  object-fit: cover;
 }
 #slide .text {
   width: 430px;
   margin-right: 100px;
+}
+
+#qatar .flex-item{
+  display: flex;
+  align-items: flex-start;
 }
 
 /* バリデーション付きメールフォーム */
