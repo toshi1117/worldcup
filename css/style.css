@@ -86,7 +86,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: calc(100vh - 70px);
   
   color: #7CADB6;
@@ -103,11 +103,12 @@ body {
                        right top,
                        left bottom,
                        right bottom;
-  background-size: 50% 50%,
-                   50% 50%,
-                   50% 50%,
-                   50% 50%;
+  background-size: 50vw 50vh,
+                   50vw 50vh,
+                   50vw 50vh,
+                   50vw 50vh;
 }
+
 
 .inner {
   background-color: rgba(0,0,0,0.5);
@@ -158,11 +159,11 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
-#japan .flex-box {
+#japan .flex-box1,.flex-box2,.flex-box3,.flex-box4,.flex-box5, .flex-box6 {
   display: flex;
 }
 #japan img {
-  width: 50vw;
+  width: 45vw;
   object-fit: cover;
 }
 #japan .data1 {
@@ -193,6 +194,12 @@ body {
   display: flex;
   justify-content: center;
 } 
+#japan h4.france,.germany,.brasil {
+  margin-left: 8vw;
+}
+#japan h4.japan-korea,.southafrica,.russia {
+  margin-left: 55vw;
+}
 /*アコーディオンパネル*/
 #japan .content {
   display: none;
@@ -436,8 +443,11 @@ li {
 #qatar .flex-item {
   flex-direction: column;
 }
-#japan .flex-box {
+#japan .flex-box1,.flex-box3,.flex-box5 {
   flex-direction: column;
+}
+#japan .flex-box2,.flex-box4,.flex-box6 {
+  flex-direction: column-reverse;
 }
 /* スライドギャラリー */
 #players li {
